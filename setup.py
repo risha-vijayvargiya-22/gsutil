@@ -132,11 +132,12 @@ setup(
         'Programming Language :: Python :: 3.12',
         'Programming Language :: Python :: 3.13',
         'Programming Language :: Python :: 3.14',
+        'Programming Language :: Python :: 3.15',
         'Topic :: System :: Filesystems',
         'Topic :: Utilities',
     ],
-    # Gsutil supports Python 3.9 to 3.14
-    python_requires='>=3.9, <3.15',
+    # Gsutil supports Python 3.9 to 3.15
+    python_requires='>=3.9, <3.16',
     platforms='any',
     packages=find_packages(
         exclude=[
